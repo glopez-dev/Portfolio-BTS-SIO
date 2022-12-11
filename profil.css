@@ -1,0 +1,82 @@
+#profil {
+    font-size: 2rem;
+}
+
+.container_profil {
+    width: 100%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+
+.container_profil h1 {
+    margin-bottom: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.profil_sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.profil_sections div {
+    width: 31%;
+
+    padding: 3rem;
+    background-color:  #F3F3F3;
+    color: black;
+    
+    border: 0.25em solid #000000;
+    border-radius: 1.5rem;
+
+    box-shadow: 12px 12px 0px -1px #000000;
+}
+
+.profil_sections h2 {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.profil_sections p {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 2.25rem;
+}
+
+.container_experiences_pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_experiences_pro a {
+    padding: .5em 1em;
+    margin: 0.25em;
+    margin-top: 2rem;
+
+    font-size: 1em;
+    font-weight: 200;
+
+    color: whitesmoke;
+    background-color:  #3e54c8;
+
+    border: 0.18em solid #000000;
+    box-shadow: 6px 6px 0px -1px #000000;
+    border-radius: 1em;
+
+    transition: 0.5s;
+}
+
+.container_experiences_pro a:hover 
+{
+    background-color: #EDFF28;
+    color: #000000;
+    font-weight: 500;
+    transform: translateY(5px) translateX(3px);
+    box-shadow: 3px 3px 0px -1px #000000;
+}

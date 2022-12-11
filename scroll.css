@@ -1,0 +1,48 @@
+/* EFFET DE SCROLLING ENTRE LES PAGES */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll_container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll_container, .scroll_area {
+    width: 100%;
+    font-size: 5rem;
+    height: 100vh;
+    margin: -1 auto;
+}
+
+.scroll_container {
+    scroll-behavior: smooth; 
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+.scroll_area {
+        scroll-snap-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e54c8;
+    color: whitesmoke;
+}
+
+#accueil {
+}
+
+#profil {
+}
+
+#competences {
+}
+
+#projets {
+}
+
+#contact {
+
+}

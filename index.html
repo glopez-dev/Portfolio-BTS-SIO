@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="profil.css">
+    <link rel="stylesheet" href="projets.css">
+    <link rel="stylesheet" href="contact_form.css">
+    <link rel="stylesheet" href="competences.css">
+    <link rel="stylesheet" href="stages.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,16 +23,239 @@
         </div>
         <div class="boutons">
             <a href="#profil" class="profil">profil</a>
-            <a href="#competences" class="competences">competences</a>
             <a href="#projets" class="projets">projets</a>
+            <a href="#stages" class="stages">stages</a>
+            <a href="#veille" class="veille">veille</a>
             <a href="#contact" class="contact">contact</a>
         </div>
     </nav>
     <div class="scroll_container">
-        <div class="scroll_area" id="accueil">1</div>
-        <div class="scroll_area" id="profil">2</div>
-        <div class="scroll_area" id="competences">3</div>
-        <div class="scroll_area"  id="projets">4</div>
+        <div class="scroll_area" id="accueil">
+            <div class="container_homepage">
+                <div class="homepage_text">
+                    <!--
+                    <h2 class="homepage_bienvenue">
+                        Bienvenu dans mon Portfolio
+                    </h2>
+                    -->
+                    <h1>
+                        Enchanté !
+                    </h1>
+                    <p>
+                        Je suis un étudiant de 2eme année de BTS Service Informatique aux Organisations (SIO) option Solution Logicielles et Applications Métier (SLAM). 
+                        <br>Passionné par la programmation et l'informatique en général, ce portfolio à pour objectif de vous présenter mes compétences actuelles, mon parcours professionnnel,
+                        les travaux que j'ai réalisés à titre personnel et au cours de ma formation.<br><br>
+                        <em>Bonne visite !</em>
+                    </p>
+                </div>
+                <!-- 
+                <div class="homepage_img">
+                   <img src="img/greeny.svg" alt=""> 
+                </div>
+                -->
+            </div>
+        </div>
+        <div class="scroll_area" id="profil">
+            <div class="container_profil">               
+                <h1>Mon Profil</h1>
+                <div class="profil_sections">
+                    <div class="container_bts_sio">
+                        <h2>BTS SIO</h2>
+                        <p>
+                            Je prépare un Brevet de Technicien Supérieur en Services Informatique aux Organisations (BTS SIO). 
+                            J'ai choisi la spécialité Solution Logiciel et Applications Metier (SLAM), c'est à dire le développement 
+                            car j'aime créer de nouvelles choses et résoudre des problémes, j'estime avoir un esprit logique et je considére
+                            chaque problématique liée au développement comme une nouvelle enigme.
+                        </p>
+                    </div>
+                    <div class="container_projet_pro">
+                        <h2>Mon projet professionnel</h2>
+                        <p>
+                            Aprés mon BTS je souhaiterais m'orienter vers le développement Web Back-End, 
+                            c'est a dire la partie masquée d'une application chargée du traitement des données, 
+                            je m'intéresse particuliérement au développement avec le language Python car j'aimerais à terme travailler sur des projets en lien 
+                            avec l'intelligence artificielle et le traitement massif de données.
+                        </p>
+                    </div>
+                    <div class="container_experiences_pro">
+                        <h2>Expériences professionnelles</h2>
+                        <p>
+                            Au cours de cette formation nous effectuons deux stages en entreprise de 5 semaines nous permettant de découvrir la vie en entreprise
+                            et d'avoir l'occasion d'effectuer de nouvelles réalisations professionnelles.
+                            Les réalisations professionnelles sont un ensembles de situation aux quelles nous sommes confrontés au cours de notre formation
+                            et à travers les quelles nous développons un ensemble de compétences nécéssaires à notre futur emploi.
+                        </p>
+                        <a href="#realisations_pro">Voir la liste des réalisations professionnelles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll_area" id="realisations_pro">
+            <div class="conteneur_tableau">
+                <div class="titre_tableau">
+                    <h1>Compétences professionnelles</h1>
+                    <p></p>
+                </div>
+                <div class="competences_body">
+                    <div class="conteneur_competence_1">
+                        <div class="competence_titre_1">
+                            Gérer Le Patrimoine Informatique
+                        </div>
+                        <div class="competence_lib_1">Recenser et identifier les ressources numériques</div>
+                        <div class="competence_lib_1">Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</div>
+                        <div class="competence_lib_1">Mettre en place et vérifier les niveaux d’habilitation associés à un service</div>
+                        <div class="competence_lib_1">Vérifier les conditions de la continuité d’un service informatique</div>
+                        <div class="competence_lib_1">Vérifier le respect des règles d’utilisation des ressources numériques</div>
+                    </div>
+                    <div class="conteneur_competence_2">
+                        <div class="competence_titre_2">
+                            Répondre Aux Incidents Et Aux Demandes D’assistance Et D’évolution
+                        </div>
+                        <div class="competence_lib_2">Collecter, suivre et orienter des demandes</div>
+                        <div class="competence_lib_2">Traiter des demandes concernant les services réseau et système, applicatifs</div>
+                        <div class="competence_lib_2">Traiter des demandes concernant les applications</div>
+                    </div>
+                    <div class="conteneur_competence_3">
+                        <div class="competence_titre_3">
+                            Développer La Présence En Ligne De L’organisation
+                        </div>
+                        <div class="competence_lib_3">Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</div>
+                        <div class="competence_lib_3">Référencer les services en ligne de l’organisation et mesurer leur visibilité.</div>
+                        <div class="competence_lib_3">Participer à l’évolution d’un site Web exploitant les données de l’organisation.</div>
+                    </div>
+                    <div class="conteneur_competence_4">
+                        <div class="competence_titre_4">
+                            Travailler En Mode Projet
+                        </div>
+                        <div class="competence_lib_4">Analyser les objectifs et les modalités d’organisation d’un projet</div>
+                        <div class="competence_lib_4">Planifier les activités</div>
+                        <div class="competence_lib_4">Évaluer les indicateurs de suivi d’un projet et analyser les écarts</div>
+                    </div>
+                    <div class="conteneur_competence_5">
+                        <div class="competence_titre_5">
+                            Mettre À Disposition Des Utilisateurs Un Service Informatique
+                        </div>
+                        <div class="competence_lib_5">Réaliser les tests d’intégration et d’acceptation d’un service</div>
+                        <div class="competence_lib_5">Déployer un service</div>
+                        <div class="competence_lib_5">Accompagner les utilisateurs dans la mise en place d’un service</div>
+                    </div>
+                    <div class="conteneur_competence_6">
+                        <div class="competence_titre_6">
+                            Organiser Son Développement Professionnel
+                        </div>
+                        <div class="competence_lib_6">Mettre en place son environnement d’apprentissage personnel</div>
+                        <div class="competence_lib_6">Mettre en œuvre des outils et stratégies de veille informationnelle</div>
+                        <div class="competence_lib_6">Gérer son identité professionnelle</div>
+                        <div class="competence_lib_6">Développer son projet professionnel</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- PROJETS / REALISATIONS PROFESSIONNELLES-->
+        <div class="scroll_area"  id="projets">
+           <div class="container_projets">
+                <div class="titre_projets">
+                    Mes Projets
+                </div>
+                <div class="body_projets">
+                    <div class="body_projets_column column_projets_1">
+                        <div class="body_projets_row projet1">
+                            Facturation
+                        </div>
+                        <div class="body_projets_row projet2">
+                            Festival 
+                        </div>
+                    </div>
+                    <div class="body_projets_column column_projets_2">
+                        <div class="body_projets_row projet3">
+                            Parking 
+                        </div>
+                        <div class="body_projets_row projet4">
+                           Personnel 
+                        </div>
+                    </div>
+                </div>
+           </div> 
+        </div>
+        <!-- STAGES EN ENTREPRISE -->
+        <div class="scroll_area" id="stages">
+            <div class="conteneur_stages">
+                <h1>Stages en entreprise</h1>
+                <h2><!--Sous titre optionnel --></h2>  
+                <div class="stages_column">
+                    <div class="stage_1">
+                        <div class="stage_img">
+                            <img src="img/logo_tisanes_fouche.jpg" alt="">
+                        </div>
+                        <div class="stage_contenu">
+                             <div class="stage_texte">
+                                Tisanes Fouché est une entreprise de vente d'infusions et compléments alimentaires par correspondance,
+                                elle développe son propre logiciel de gestion avec l'aide de deux développeurs, le logiciel traitant des données
+                                comptables, il doit être certifié NF525 afin d'être conforme a l'article 88 de la loi anti fraude à la TVA.
+                            </div>
+                             <div class="stage_bouton">
+                                <a href="stage_tisanes.html">
+                                    En savoir plus
+                                </a>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="stage_2">                            
+                        <div class="stage_img">
+                            <img src="img/a_venir.jpg" alt="">
+                        </div>
+                        <div class="stage_contenu">                           
+                            <div class="stage_texte">
+                                À venir !
+                            </div>
+                            <div class="stage_bouton">
+                                En savoir plus
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- VEILLE TECHNOLOGIQUE -->
+        <div class="scroll_area" id="veille">
+            <div class="conteneur_veille">
+                <h1>Veille Technologique</h1>
+                <p></p>
+            </div>
+        </div>
+        <!-- PAGE CONTACT -->
+        <div class="scroll_area" id="contact">
+           <div class="conteneur-contact"> 
+                <div class="contact-form">
+                    <h1>Me contacter</h1>
+                    <p>Vous pouvez directement m'envoyer un mail avec ce formulaire ou à mon adresse <br><span class="email">glopez-dev@proton.me</span></p>
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">Nom</label>
+                            <input type="text" name="firstname" id="firstname" required class="form-element" placeholder="Dupont" />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Prenom</label>
+                            <input type="text" name="lastname" id="lastname" required class="form-element" placeholder="Michel" />
+                        </div> 
+                        <div class="form-group full">
+                            <label for="email"> e-mail </label>
+                            <input type="text" name="email" id="email" required class="form-element" placeholder="m.dupont@example.com" />
+                        </div>
+                        <div class="form-group full">
+                            <label for="message">Que puis-je faire pour vous ?</label>
+                            <textarea name="message" id="message" class="form-element" placeholder="J'aimerais discuter... "></textarea>
+                        </div>
+                        <div class="submit-group">
+                            <input type="submit" value="ENVOYER" />
+                        </div>
+                    </form>
+                </div>
+            </div>  
+            
+        </div>
     </div>
 </body>
 </html>
+

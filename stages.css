@@ -1,0 +1,136 @@
+/* FEUILLE DE STYLE DES STAGES */
+
+.conteneur_stages
+{
+    width: 100%;
+    margin: 10rem;
+}
+
+.conteneur_stages  h1 
+{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align : center;
+
+    color: white;
+    font-size: 4rem;
+}
+
+.conteneur_stages h2{
+    font-size: 2rem;
+}
+
+.stages_column
+{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stages_column > div 
+{
+    width: 100rem;
+    height: auto ;
+
+    padding-bottom: 1rem;
+
+    background-color: white;
+    
+    border: 0.25em solid #000000;
+    border-radius: 1.5rem;
+
+    box-shadow: 12px 12px 0px -1px #000000;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stage_contenu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stage_1
+{
+    margin-bottom: 4rem;
+}
+
+.stages_column img 
+{
+    margin: 2rem;
+
+}
+
+.stage_1 img, .stage_2 img 
+{
+    width: 30rem;
+}
+
+.stage_1 .stage_texte, .stage_2 .stage_texte
+{
+    margin-top: 5.5rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 500;
+
+    text-align: justify;
+}
+
+.stages_column .stage_bouton
+{
+    width: fit-content;
+
+    padding: .5em 1em;
+    margin: 0.25em 2rem 0.25em ;
+
+    text-align: center;
+
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    border: 0.18em solid #000000;
+    box-shadow: 6px 6px 0px -1px #000000;
+    border-radius: 1em;
+}
+
+.stage_1 .stage_bouton
+{
+    align-self: left;
+    color: #F3F3F3;
+    background-color: #6e73cc;
+    transition: 0.5s;
+}
+
+.stage_2 img 
+{
+    border: .5rem solid #000000;
+    border-radius: .25em;
+}
+
+.stage_2 .stage_bouton
+{
+    color: #F3F3F3;
+    background-color: #6e73cc;
+    transition: 0.5s;
+}
+
+.stage_bouton:hover
+{
+    background-color: #4E54C8;
+    color: #F3F3F3;
+    font-weight: 500;
+    transform: translateY(5px) translateX(3px);
+    box-shadow: 3px 3px 0px -1px #000000;
+}
+
